@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-bucket-1997-28"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "new-table-97"
     encrypt        = true
   }
 }
