@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-buckets-1997"
+    bucket         = "my-bucket-977"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "new-table"
